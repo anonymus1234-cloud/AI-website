@@ -1,0 +1,47 @@
+body{
+    background-image: url(https://th.bing.com/th/id/R.fcdbe81c0fb8e4d38a7b29f774f02a57?rik=gdI3611OufrIjQ&pid=ImgRaw&r=0);
+    background-repeat: no-repeat;
+    background-size: 1550px 750px;
+}
+
+.a{
+    color: rgb(56, 56, 255);
+    text-align: center;
+    font-size: 50px;
+    font-family: curlz MT;
+    border: 15px;
+    border-style: groove;
+    border-color: navy;
+    margin: 100px;
+}
+
+#q{
+    border: 30px;
+    border-style: groove;
+    animation-name: move;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+
+@keyframes move{
+    20%{background-color: blue;top: 100px;left: 200px;}
+    30%{background-color: orange;top: 300px;left: 400px;}
+    40%{background-color:green;top: 200px;left: 300px;}
+    45%{background-color:red;top: 300px;left: 400px;}
+    30%{background-color:black;top: 400px;left: 301px;}
+    80%{background-color:palegreen;top: 201px;left: 303px;}
+    50%{background-color: rgb(19, 115, 153);top: 205px;left: 309px;}
+    60%{background-color: rgb(19, 180, 83);top: 412px;left: 30px;}
+    100%{background-color: rgb(162, 190, 60);top: 243px;left: 398px;}
+}
+
+a{
+    font-size: 30px;
+    color: rgb(80, 80, 255);
+    padding: 15px;
+}
+
+li{
+    display: inline;
+}
